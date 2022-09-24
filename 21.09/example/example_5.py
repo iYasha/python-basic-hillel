@@ -47,11 +47,58 @@ string = 'Hello world'
 #     print('No')
 
 
-url = input('Enter URL: ')
+# url = input('Enter URL: ')
+#
+# if url.startswith('https://') and url.endswith('.com'):
+#     print('Correct!')
+# else:
+#     print('Error')
 
-if url.startswith('https://') and url.endswith('.com'):
-    print('Correct!')
-else:
-    print('Error')
+# print("Hello world".find('world'))
 
+# number = input('Enter number: ')
+#
+# if not number.isdigit():
+#     print('Error')
+#     exit()
+# print(number.isdigit())
+
+# print('ABcd.'.isalpha())
+
+# print('abc123 '.islower())
+# print('ABC123 '.isupper())
+# print('      '.isspace())
+# print('Hello World'.istitle())
+
+# TODO: practice
+# """
+# 1. isspace
+# 2. islower
+# 3. isupper
+# 4. isdigit
+# """
+#
+# test_string = 'Hello world123'
+#
+# for symbol in test_string:
+#     print(symbol)
+#     print(symbol.isspace())
+#     print(symbol.islower())
+#     print(symbol.isupper())
+#     print(symbol.isdigit())
+#     print('======================')
+
+# text = 'Hello 12world'
+# print(text.replace('world', 'L', -1))
+# print(text)
+# numbers = '1,2,3,4,5,6,7'
+
+# print(text.upper())
+# print(text.lower())
+
+text = '  Hello world   '
+
+print(text.lstrip())
+print(text.rstrip())
+print(text.strip())
 
