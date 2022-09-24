@@ -71,22 +71,25 @@ string = 'Hello world'
 # print('Hello World'.istitle())
 
 # TODO: practice
-# """
-# 1. isspace
-# 2. islower
-# 3. isupper
-# 4. isdigit
-# """
-#
-# test_string = 'Hello world123'
-#
-# for symbol in test_string:
-#     print(symbol)
-#     print(symbol.isspace())
-#     print(symbol.islower())
-#     print(symbol.isupper())
-#     print(symbol.isdigit())
-#     print('======================')
+"""
+Написать программу которая проверяет что в строке есть хотя бы один пробел, число, буква нижнего и верхнего регистра.
+Если это так, то вывести 'YES', иначе 'NO'
+
+1. isspace
+2. islower
+3. isupper
+4. isdigit
+"""
+
+test_string = 'Hello world123'
+
+for symbol in test_string:
+    print(symbol)
+    print(symbol.isspace())
+    print(symbol.islower())
+    print(symbol.isupper())
+    print(symbol.isdigit())
+    print('======================')
 
 # text = 'Hello 12world'
 # print(text.replace('world', 'L', -1))
@@ -96,9 +99,17 @@ string = 'Hello world'
 # print(text.upper())
 # print(text.lower())
 
-text = '  Hello world   '
+text = 'heLlo wOrld'
 
-print(text.lstrip())
-print(text.rstrip())
-print(text.strip())
+# print(text.lstrip())
+# print(text.rstrip())
+# print(text.strip())
 
+# print(text.title())
+# print(text.capitalize())
+# print(text.swapcase())
+# print(text.casefold())
+
+print('112'.zfill(4))
+print('12'.ljust(4, '*'))
+print('12'.rjust(4, '*'))
