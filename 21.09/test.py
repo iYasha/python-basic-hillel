@@ -25,3 +25,15 @@ for symbol in test_string:
 в оценочной шкале от 1 до 5.
 3. Напишите программу где пользователь вводит число - count, а программа выводит count чисел фибоначчи.
 """
+
+import random
+
+ascii_lowercase = 'abcdefghijklmnopqrstuvwxyz'
+ascii_uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+digits = '0123456789'
+punctuation = r"""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""
+
+symbols = random.choices(ascii_lowercase, k=5)  # Сгенерировали 5 рандомных символов из букв ascii_lowercase
+done_str = ''.join(symbols)
+print(done_str)
+
